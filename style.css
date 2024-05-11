@@ -1,0 +1,50 @@
+:root{
+    --btn-primary: #5cba5c;
+    --bg-primary: #fbf3f3;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.container{
+    /* height: 400px; */
+    width: 500px;
+    background-color: var(--bg-primary);
+    border: 1px solid black;
+    text-align: center;
+    padding: 50px;
+}
+
+h1{
+    font-size: 40px;
+    padding: 40px;
+}
+
+
+#todoInput{
+    padding: 8px;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+#addComment{
+    padding: 8px;
+    outline: none;
+    border-radius: 5px;
+background-color: var(--btn-primary);
+cursor: pointer;
+border: none;
+}
+
